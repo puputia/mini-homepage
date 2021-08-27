@@ -1,0 +1,65 @@
+.title_tag {
+    background-color: #cccccc;
+    font-family: 'GowunDodum-Regular';
+    margin: 10px;
+    padding: 10px;
+}
+
+.pile {
+    color: fuchsia;
+    font-weight: bold;
+}
+
+.visitor_comment {
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.visitor-image img {
+     width: 140px;
+     height:140px;
+     padding: 5px;
+}
+
+.background-1 {
+    background-image: url("./images/background1.jpg");
+}
+ 
+
+.background-2 {
+    background-image: url("./images/background2.jpg");
+}
+
+.background-3 {
+    background-image: url("./images/background3.jpg");
+}
+
+.background-1, .background-2, .background-3 {
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.visitor_main{
+    float:left;
+}
+
+.visitor_container{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.visitor-image {
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.main {
+    overflow-y: scroll;
+}
+
+ 
+
+ 

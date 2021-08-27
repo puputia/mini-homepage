@@ -1,0 +1,241 @@
+body {
+  background-color: #a3a3a3;
+  /** body에 배경이미지 적용 */
+  background-image: url("../static/images/pattern.png");
+  /** 고정된 사이즈로 설정 */
+  background-size: 100px;
+  
+  /** 기본 body 사이즈를 화면 크기로 고정 */
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+  
+.bookcover {
+  /** 배경 색깔 지정  */
+  background-color: #632e7e;
+  /** 모서리 둥글게 */
+  border-radius: 9px;
+  /** 윤곽선 */
+  border: 1px solid #738186;
+  
+  /** 기본 너비, 높이 지정 (반응형 X) */
+  width: 960px;
+  height: 660px;
+  
+  /** 좌우 마진을 auto(중앙에 배치), 상하 마진을 100px로 지정 */
+  margin: 100px auto;
+  
+  /** .bookdot 요소에서 absolute 속성값을 이용하기 위해 position: relative 로 설정 */
+  position: relative;
+}
+  
+  /** 하얀색 점선 윤곽선이 있는 네모박스 만들기  */
+.bookdot {
+  border-radius: 9px;
+  border: 2px dashed #ffffff;
+  padding: 15px;
+  
+  /** bookcover div 기준으로 상하좌우 15px씩 떨어져있는 위치에 고정 */
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+}
+
+ 
+/** 미니홈피 내용이 들어갈 연회색 네모박스 만들기 */
+.page {
+  background-color: #eeeeee;
+  border-radius: 9px;
+
+
+/** bookdot div 기준으로 상하좌우 10px씩 떨어져있는 위치에 고정 */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.container {
+   display: flex;
+}
+
+.left, center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.left{
+  text-align: center;
+}
+
+.center {
+  width: 400px;
+}
+
+.today {
+   font-size: 13px;
+}
+
+.colored {
+  color: #eb4d4b;
+}
+
+.profile, .main {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 9px;
+  height: 34rem; 
+}
+
+.menu_box { 
+  background-color:#eeeeee;
+  border: solid 1px #eeeeee;
+  width: 80px;
+  margin: 0 left; 
+}
+
+.center {
+   flex: 2.8;
+     margin-left: 30px;
+}
+
+.title_box {
+    padding-top: 19px;
+    padding-bottom: 5px; 
+    font-size: 13px;
+}
+
+.title_box > span {
+  margin-right: 50px
+}
+
+.today, .title_box {
+  margin-bottom: 5px;
+}
+
+.right {
+  flex: 0.7;
+}
+
+.menu_box {
+  height: 36rem;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.title, .url{
+  font-size: 13px;
+}
+
+.title_box {
+  margin: 0 auto;
+}
+
+.profile {
+  flex-direction: column;
+}
+.profile_picture {
+   margin-top: 40px;
+}
+
+.profile_text {
+  margin: 30px auto;
+}
+
+.sexual {
+  text-align: left;
+  padding-top: 80px;
+  margin-left: 20px;
+}
+
+.profile-dropdown {
+  flex: 0;
+  border: 1px solid #c9d4da;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 1rem;
+  position: relative;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 4.5px solid transparent;
+  border-right: 4.5px solid transparent;
+  border-top: 5px solid #838383;
+}
+
+.dropdown-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.profile-dropdown:hover>.dropdown-content {
+  display: block;
+}
+
+.dropdown-content>a {
+  display: block;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 7px;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+}
+
+.dropdown-content>a:hover {
+  background-color: #f1f1f1;
+}
+
+.menu_box a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  border-radius: 0 9px 9px 0;
+  background-color: #3395b0;
+  padding: 10px;
+  margin-top: 6px;
+  color: white;
+  border: 1px solid #cdcdcd;
+  
+}
+
+.menu_box a:hover {
+ background-color:hotpink;
+ color: black;
+}
+
+.menu_box {
+  margin-top: 35px;
+  flex: 1;
+  height: 100px;
+}
+
+.main {
+   
+  overflow-y: auto;
+}
+ 

@@ -1,0 +1,82 @@
+.divider {
+    border-bottom: 1px solid grey;
+    padding:5px;
+    margin: 0 10px;
+}
+  
+h3 {
+    color: #0099CC;
+    margin: 0 5px;
+}
+  
+.updated {
+    display: flex;
+    font-size: 13px;
+    margin: 0 10px;
+}
+  
+.photo_s {
+    background: tomato;
+    border-radius: 3px;
+    color:whitesmoke;
+    padding:2px;
+    text-align: center;
+    margin:3px;
+}
+  
+.text {
+    margin:1px;
+    text-align: center;
+    padding:2px; 
+}
+  
+.diary_s {
+    background: tan;
+    border-radius: 3px;
+    color:whitesmoke;
+    padding:2px;
+    text-align: center;
+    margin:3px;
+    
+}
+  
+.container {
+    position: absolute;
+    justify-content: space-around;
+}
+  
+.notice_s {
+    background: #0099a4;
+    border-radius: 3px;
+    color:whitesmoke;
+    padding:2px;
+    text-align: center;
+    margin:3px;
+}
+
+.news {
+    list-style-type: none;
+    margin-left: -30px;
+    padding: -10px 0 10px 0;
+}
+
+.leftlist {
+    list-style-type: none;
+    flex:0.5;
+}
+
+.rightlist {
+    list-style-type: none;
+    flex:0.5;
+}
+  
+.room{ 
+    margin: 20px auto;
+    text-align: center;
+}
+  
+.photo_s, .diary_s, .notice_s {
+   font-size: 12px;
+    
+    
+}   

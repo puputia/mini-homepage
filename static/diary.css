@@ -1,0 +1,127 @@
+.date-box {
+     
+    flex-direction: row;
+    position: wrap;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    height: 3rem;
+  
+    border: 1px solid #e7e7e7;
+  
+    display: flex;
+    align-items: center;
+}
+  
+.today {
+    flex: 0 0 2rem;
+    margin: 0 1rem;
+    text-align: center;
+    color: #3b87ab;
+    font-weight: 700;
+}
+  
+.date-list {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  
+.date {
+    flex: 0 0 1.5rem;
+    color: #707070;
+    cursor: pointer;
+    text-align: center;
+}
+  
+.scroll-box {
+    height: 480px;
+    overflow-y: scroll;
+     
+     
+     
+
+}
+  
+.color-red {
+      color: red;
+}
+  
+.color-blue {
+    color: blue;
+}
+
+.content{
+     
+    
+    text-align:center;    
+}  
+
+.text_d {
+    text-align: center;
+     ;
+
+}
+
+.content1, .content2, .content3 {
+    border: 1px solid rosybrown ;  
+    flex:0; 
+    margin: 15px;
+    border-radius: 5px;
+    text-align:center;
+    line-height:22px; 
+    margin-bottom:20px;
+    font-family: '777Starlandmoon';
+    flex-direction:column;
+    padding: 10px;  
+}
+
+.button{
+    text-align: center;
+}
+
+.button>button:hover {
+    color:white; 
+    background-color: lightpink ;
+    transition: 500ms ease all; border-radius: 4px;
+}
+
+.button>button {
+    width:40%; 
+    padding:16px;
+    color:white; 
+    background-color: white;
+    border:0px;
+    font-family: 'DungGeunMo';
+  transition: 500ms ease all; 
+}
+
+.d_t { 
+    font-family: 'GowunDodum-Regular'; 
+    font-weight: bold;
+    text-align: left;
+    margin-top:10px;
+    margin-left:18px;
+}
+
+#secret-box {
+	display: none;
+}
+
+#secret-diary {
+	padding: 10px 20px;
+	font-size: 15px;
+	color: saddlebrown;
+	border: none;
+	border-radius: 7px;
+	background-color: pink;
+	text-align: center;
+    font-family: 'GowunDodum-Regular'; 
+}
+
+.diary-date {
+    font-family: 'HSBombaram3_Regular';
+    margin-left: 5px;
+    padding: 10px;
+}

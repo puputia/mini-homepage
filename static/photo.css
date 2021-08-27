@@ -1,0 +1,25 @@
+.photo-scroll {
+    overflow:auto;
+}
+
+.headline {
+    font-family:'WandohopeB';
+    background-color: salmon;
+    margin: 10px;
+    padding:10px;  
+}
+
+.photo_img {
+    text-align: center;
+}
+
+.headline b {
+    float: right;
+    font-family: 'S-CoreDream-3Light';
+    padding-top: 2px;
+    color: blue;
+}
+
+.image_txt {
+    margin-left:15px;
+}
